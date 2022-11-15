@@ -35,7 +35,7 @@ export const Hero = styled.div`
   background-color: black;
   border-radius: 5px;
   opacity: 0.6;
-  z-index: 1;
+  z-index: -1;
 
   // @media (min-width: ${bp.md}) {
   //   height: 100vh;
