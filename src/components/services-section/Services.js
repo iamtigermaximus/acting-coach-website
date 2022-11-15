@@ -23,6 +23,7 @@ export const ServicesSubheading = styled.div`
   font-size: 18px;
   padding: 5px;
   width: 800px;
+  text-align: center;
 `
 
 export const ServicesCardContainer = styled.div`

@@ -5,8 +5,23 @@ import Header from '../../components/header/Header'
 const Container = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100vh;
+`
+export const ServicesHeadingContainer = styled.div`
+  letter-spacing: 6px;
+`
+export const ServicesHeading = styled.div`
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding: 5px;
+`
+export const ServicesSubheading = styled.div`
+  font-size: 18px;
+  padding: 5px;
+  width: 800px;
+  display: flex;
+  text-align: center;
 `
 
 const Contact = () => {
@@ -14,7 +29,13 @@ const Contact = () => {
     <>
       <Header />
       <Container>
-        <h1>Contact</h1>
+        <ServicesHeadingContainer>
+          <ServicesHeading>Get In Touch</ServicesHeading>
+          <ServicesSubheading>
+            Proin gravida nibh vel velit auctor aliquet aenean sollicitudin,
+            lorem quis bibendum auctor quiipsum.
+          </ServicesSubheading>
+        </ServicesHeadingContainer>
       </Container>
     </>
   )
