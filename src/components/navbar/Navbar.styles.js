@@ -25,7 +25,7 @@ export const BrandContainer = styled.div`
 `
 export const BrandLinkItem = styled.div`
   display: flex;
-  color: ${colors.offWhite};
+  color: gold;
   font-size: 25px;
   font-family: 'Courgette', cursive;
   padding: 0 30px;
@@ -70,6 +70,7 @@ export const LinkItem = styled.h1`
 
 export const MenuContainer = styled.div`
   display: flex;
+  padding: 0 30px;
 `
 
 export const MobileMenuContainer = styled.div`
