@@ -47,15 +47,10 @@ export const HeroTitle = styled.h1`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
+  font-size: 60px;
   font-weight: 700;
-  z-index: 1;
 
-  @media (min-width: ${bp.sm}) {
-    font-size: 30px;
-  }
-
-  @media (min-width: ${bp.lg}) {
+  @media (min-width: ${bp.md}) {
     font-size: 80px;
     margin: 50px;
   }

@@ -66,6 +66,7 @@ export const LinkItem = styled.h1`
   margin: 10px 10px;
   padding: 10px 20px;
   font-size: 20px;
+  letter-spacing: 3px;
 `
 
 export const MenuContainer = styled.div`
