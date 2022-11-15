@@ -4,6 +4,7 @@ export default {
   navy: '#000080',
   darkBlue: '#110934',
   offWhite: '#F6F6F6',
+  gainsboro: '#DCDCDC',
 
   // lightYellow: '#FFE18D',
   // deepPink: '#D6365C',

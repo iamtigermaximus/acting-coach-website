@@ -22,7 +22,7 @@ export const TestimonialsHeadingContainer = styled.div`
 export const TestimonialsHeading = styled.div`
   font-size: 40px;
   padding: 5px;
-  color: ${colors.offWhite};
+  color: #dcdcdc;
 `
 
 export const TestimonialsCardContainer = styled.div`
@@ -32,6 +32,7 @@ export const TestimonialsCardContainer = styled.div`
   align-items: center;
   margin: 0 100px;
   overflow: hidden;
+  opacity: 0.9;
 `
 export const TestimonialCard = styled.div`
   width: 600px;

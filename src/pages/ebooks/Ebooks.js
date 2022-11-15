@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Header from '../../components/header/Header'
 
 const Container = styled.div`
   display: flex;
@@ -10,9 +11,12 @@ const Container = styled.div`
 
 const Ebooks = () => {
   return (
-    <Container>
-      <h1>Ebooks</h1>
-    </Container>
+    <>
+      <Header />
+      <Container>
+        <h1>Ebooks</h1>
+      </Container>
+    </>
   )
 }
 

@@ -2,21 +2,24 @@ import React from 'react'
 import styled from 'styled-components'
 import colors from '../../utils/colors'
 
-export const FooterContainer = styled.footer`
+export const BannerContainer = styled.div`
   width: 100%;
-  height: 100%;
+  height: 200px;
   background: black;
   color: ${colors.gainsboro};
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 10px;
+  font-size: 40px;
+  letter-spacing: 3;
 `
 
-const Footer = () => {
+const Banner = () => {
   return (
-    <FooterContainer>© 2022 Jonathan Doe. All rights reserved.</FooterContainer>
+    <BannerContainer>
+      Let Me Help You Overshoot Your Goals in the Right Ways.
+    </BannerContainer>
   )
 }
 
-export default Footer
+export default Banner

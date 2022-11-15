@@ -10,6 +10,7 @@ export const NavbarContainer = styled.nav`
   align-items: center;
   justify-content: space-between;
   position: fixed;
+  z-index: 1;
 `
 
 export const BrandContainer = styled.div`
@@ -62,7 +63,7 @@ export const LinkItemContainer = styled.div`
 
 `
 export const LinkItem = styled.h1`
-  color: ${colors.offWhite};
+  color: ${colors.gainsboro};
   margin: 10px 10px;
   padding: 10px 20px;
   font-size: 20px;

@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import colors from '../../utils/colors'
-import Coach from '../../assets/man-gc84f33f3d_1920.jpg'
+import Coach from '../../assets/man-g7c1218a07_1920.jpg'
 
 export const MyStorySectionContainer = styled.div`
   width: 100%;
   height: 100%;
-  background: #dcdcdc;
+  background: ${colors.gainsboro};
   padding: 30px 0;
 `
 
@@ -16,6 +16,7 @@ export const MyStoryCardContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 50px;
+  opacity: 0.9;
 `
 export const MyStoryCard = styled.div`
   width: 500px;
@@ -27,7 +28,7 @@ export const MyStoryCard = styled.div`
   justify-content: center;
   //align-items: center;
   background: black;
-  color: ${colors.offWhite};
+  color: #dcdcdc;
 `
 export const CardTitle = styled.div`
   display: flex;
@@ -58,11 +59,9 @@ export const CardButton = styled.button`
 export const BlankForImage = styled.div`
   height: 100%;
   width: 100%;
-  background-color: orange;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10%;
 `
 export const Image = styled.img`
   height: 100%;
@@ -71,7 +70,6 @@ export const Image = styled.img`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10%;
 `
 
 const MyStory = () => {

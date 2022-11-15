@@ -7,6 +7,7 @@ import Ebooks from './pages/ebooks/Ebooks'
 import Workshop from './pages/workshop/Workshop'
 import Contact from './pages/contact/Contact'
 import Footer from './components/footer/Footer'
+import Banner from './components/banner/Banner'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path='/workshop' element={<Workshop />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
+      <Banner />
       <Footer />
     </BrowserRouter>
   )

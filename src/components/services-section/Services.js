@@ -44,7 +44,8 @@ export const ServiceCard = styled.div`
   justify-content: center;
   //align-items: center;
   background: black;
-  color: ${colors.offWhite};
+  color: ${colors.gainsboro};
+  opacity: 0.9;
 `
 export const CardTitle = styled.div`
   display: flex;
