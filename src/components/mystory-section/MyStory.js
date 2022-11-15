@@ -6,7 +6,7 @@ import Coach from '../../assets/man-gc84f33f3d_1920.jpg'
 export const MyStorySectionContainer = styled.div`
   width: 100%;
   height: 100%;
-  background: ${colors.offWhite};
+  background: #dcdcdc;
   padding: 30px 0;
 `
 

@@ -6,6 +6,7 @@ import About from './pages/about/About'
 import Ebooks from './pages/ebooks/Ebooks'
 import Workshop from './pages/workshop/Workshop'
 import Contact from './pages/contact/Contact'
+import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path='/workshop' element={<Workshop />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
