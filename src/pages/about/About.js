@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Header from '../../components/header/Header'
 import colors from '../../utils/colors'
-import TestimonialCard from '../../components/testimonials-section/Testimonials'
+//import TestimonialCard from '../../components/testimonials-section/Testimonials'
 
 const Container = styled.div`
   display: flex;
