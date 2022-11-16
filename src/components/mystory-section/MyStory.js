@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import colors from '../../utils/colors'
 import Coach from '../../assets/man-g7c1218a07_1920.jpg'
+import { Link } from 'react-router-dom'
 
 export const MyStorySectionContainer = styled.div`
   width: 100%;
@@ -55,6 +56,10 @@ export const CardButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  &:hover {
+    background: ${colors.gainsboro};
+  }
 `
 export const BlankForImage = styled.div`
   height: 100%;
@@ -71,7 +76,9 @@ export const Image = styled.img`
   align-items: center;
   justify-content: center;
 `
-
+export const MyStoryLink = styled(Link)`
+  text-decoration: none;
+`
 const MyStory = () => {
   return (
     <MyStorySectionContainer>
@@ -90,9 +97,11 @@ const MyStory = () => {
             doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
             inventore veritatis.
           </CardTexts>
-          <CardButtonContainer>
-            <CardButton>Read Jonathan's Story</CardButton>
-          </CardButtonContainer>
+          <MyStoryLink to='/about'>
+            <CardButtonContainer>
+              <CardButton>Read Jonathan's Story</CardButton>
+            </CardButtonContainer>
+          </MyStoryLink>
         </MyStoryCard>
         <MyStoryCard>
           <BlankForImage>

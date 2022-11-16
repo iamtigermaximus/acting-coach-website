@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import colors from '../../utils/colors'
+import { Link } from 'react-router-dom'
 
 export const ServicesSectionContainer = styled.div`
   width: 100%;
@@ -74,6 +75,9 @@ export const CardButton = styled.button`
   justify-content: center;
   align-items: center;
 `
+export const ServicesLink = styled(Link)`
+  text-decoration: none;
+`
 
 const Services = () => {
   return (
@@ -93,9 +97,11 @@ const Services = () => {
             magna aliqua ut enim ad minim veniam, quis nostrud exercitation
             ullamco.
           </CardTexts>
-          <CardButtonContainer>
-            <CardButton>Read More</CardButton>
-          </CardButtonContainer>
+          <ServicesLink to='/ebooks'>
+            <CardButtonContainer>
+              <CardButton>Read More</CardButton>
+            </CardButtonContainer>
+          </ServicesLink>
         </ServiceCard>
         <ServiceCard>
           <CardTitle>I Coach.</CardTitle>
@@ -104,9 +110,11 @@ const Services = () => {
             magna aliqua ut enim ad minim veniam, quis nostrud exercitation
             ullamco.
           </CardTexts>
-          <CardButtonContainer>
-            <CardButton>Read More</CardButton>
-          </CardButtonContainer>
+          <ServicesLink to='/workshop'>
+            <CardButtonContainer>
+              <CardButton>Read More</CardButton>
+            </CardButtonContainer>
+          </ServicesLink>
         </ServiceCard>
         <ServiceCard>
           <CardTitle>I Direct.</CardTitle>
@@ -115,9 +123,11 @@ const Services = () => {
             magna aliqua ut enim ad minim veniam, quis nostrud exercitation
             ullamco.
           </CardTexts>
-          <CardButtonContainer>
-            <CardButton>Read More</CardButton>
-          </CardButtonContainer>
+          <ServicesLink to='/workshop'>
+            <CardButtonContainer>
+              <CardButton>Read More</CardButton>
+            </CardButtonContainer>
+          </ServicesLink>
         </ServiceCard>
       </ServicesCardContainer>
     </ServicesSectionContainer>

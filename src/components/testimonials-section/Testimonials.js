@@ -83,7 +83,7 @@ const Testimonials = () => {
           centerSlidePercentage={100}
           showStatus={false}
           showIndicators={false}
-          //autoPlay
+          autoPlay
           infiniteLoop
           showArrows={true}
           showThumbs={false}
