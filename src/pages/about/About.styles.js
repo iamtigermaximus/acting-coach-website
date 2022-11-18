@@ -1,29 +1,20 @@
 import styled from 'styled-components'
 import colors from '../../utils/colors'
 
-export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
-  top: 10vh;
-`
 export const AboutHeadingContainer = styled.div`
-  letter-spacing: 6px;
+  letter-spacing: 1px;
 `
 export const AboutHeading = styled.div`
   display: flex;
   justify-content: center;
   font-size: 40px;
-  padding-bottom: 50px;
 `
 export const AboutSubheading = styled.div`
   font-size: 18px;
   padding: 5px;
-  width: 100vw;
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 `
 export const AboutCardContainer = styled.div`
   display: flex;
@@ -70,4 +61,14 @@ export const AboutCardButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+`
+export const PageBody = styled.div`
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  padding: 50px;
 `
